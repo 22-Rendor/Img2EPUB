@@ -32,7 +32,7 @@ from xml.sax.saxutils import escape, quoteattr
 IMG_EXT = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
 EPUB_MIME = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp"}
 
-
+    
 def natural_key(name: str):
     # so "Part 10" doesn't sort before "Part 2"
     return [int(p) if p.isdigit() else p.casefold() for p in re.split(r"(\d+)", name)]
