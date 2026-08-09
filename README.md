@@ -62,7 +62,6 @@ Custom Output Location:
 ```bash
 python img2epub.py epub "E:\path\to\folder" -o "E:\new\saved\epub\path.epub"
 ```
-<br>
 
 ### GUI Usage
 The GUI provides a simple way to convert your images without using the command line.
@@ -72,7 +71,7 @@ The GUI provides a simple way to convert your images without using the command l
 4. Select EPUB or PDF.
 5. Convert.
 <br>
-The newly created file will be saved in the saem location as the selected folder.<br><br>
+The newly created file will be saved in the same location as the selected folder.<br><br>
 
 ## Folder Structure
 The Program supports two different folder layouts:
