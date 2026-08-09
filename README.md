@@ -23,9 +23,8 @@ Python3 is required.
 
 ```bash
 pip install pillow img2pdf
-git clone https://github.com/22-Rendor/Image-to-EpubConverter.git
-cd Image-to-EpubConverter
-python3 img2epub.py
+git clone https://github.com/22-Rendor/Img2EPUB.git
+cd Img2EPUB
 ```
 
 ## CLI Usage
